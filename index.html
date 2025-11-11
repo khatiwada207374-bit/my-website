@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ghanashyam Khatiwada | Computer Teacher</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      color: #212529;
+      scroll-behavior: smooth;
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(120deg, #ffffff, #f1f3f5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 0 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+
+    .hero h2 {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 1.2rem auto;
+      line-height: 1.7;
+    }
+
+    /* Sections */
+    section {
+      padding: 80px 20px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    /* Offer Cards */
+    .offer-card {
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .offer-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Testimonials */
+    .testimonial {
+      background: #f8f9fa;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      margin: 10px;
+    }
+
+    /* CTA Banner */
+    .cta {
+      background: linear-gradient(135deg, #212529, #343a40);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .cta h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .cta a {
+      color: white;
+      border: 2px solid white;
+      border-radius: 50px;
+      padding: 10px 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background: white;
+      color: #212529;
+    }
+
+    /* Footer */
+    footer {
+      background: #212529;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffc107;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Ghanashyam Khatiwada</h1>
+    <h2>Computer Teacher from Nepal</h2>
+    <p>I am here to support your journey towards mastering technology and achieving career success. My goal is to make learning engaging, effective, and practical for real-world growth.</p>
+    <a href="#offer" class="btn btn-dark rounded-pill px-4 py-2 mt-3">Get Started</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container text-center">
+      <h3 class="section-title">About Me</h3>
+      <p class="mx-auto" style="max-width:700px;">
+        With years of experience in technology education, I have helped students and professionals gain valuable IT skills — from beginner to advanced levels. I specialize in teaching AI, Python, and Django, along with providing strategic guidance to organizations looking to transform digitally.
+      </p>
+    </div>
+  </section>
+
+  <!-- What I Offer -->
+  <section id="offer">
+    <div class="container">
+      <h3 class="section-title">What I Offer</h3>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5">
+          <div class="card offer-card p-4 h-100">
+            <h5 class="fw-semibold mb-3">🎓 Online Classes</h5>
+            <p>Join structured online classes and learn cutting-edge technologies like <strong>AI, Python, and Django</strong> — built to boost your skills and career opportunities.</p>
+            <a href="#contact" class="btn btn-outline-dark rounded-pill mt-3">Join Now</a>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card offer-card p-4 h-100">
+            <h5 class="fw-semibold mb-3">💼 Tech Consultation</h5>
+            <p>Helping organizations move forward in the digital age by implementing modern technology solutions that increase efficiency and revenue.</p>
+            <a href="#contact" class="btn btn-outline-dark rounded-pill mt-3">Request a Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <div class="container">
+      <h3 class="section-title">What People Say</h3>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p>“Ghanashyam Sir’s classes are very practical and easy to understand. I learned Python from zero to advanced within months!”</p>
+            <strong>- Student A</strong>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p>“His guidance helped our organization implement digital tools that doubled our efficiency.”</p>
+            <strong>- Client B</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h3>Ready to Level Up Your Tech Skills?</h3>
+    <p>Start learning or transform your business today with personalized support and expert training.</p>
+    <a href="#contact">Contact Me</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="text-center">
+    <div class="container">
+      <h3 class="section-title">Get In Touch</h3>
+      <p>Feel free to reach out for online classes, consultations, or collaborations.</p>
+      <div class="mt-4">
+        <a href="https://www.facebook.com/Ghanshymkhatioda" target="_blank" class="btn btn-outline-dark rounded-pill px-4 m-1">Facebook</a>
+        <a href="mailto:digitalgsk@gmail.com" class="btn btn-outline-dark rounded-pill px-4 m-1">Email</a>
+        <a href="https://youtube.com/technologychannel" target="_blank" class="btn btn-outline-dark rounded-pill px-4 m-1">YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="mb-1">&copy; <span id="year"></span> Ghanashyam Khatiwada. All rights reserved.</p>
+    <small>Designed with ❤️ in Nepal</small>
+    <div class="mt-2">
+      <a href="https://www.facebook.com/Ghanshymkhatioda">Facebook</a> |
+      <a href="mailto:digitalgsk@gmail.com">Email</a> |
+      <a href="https://youtube.com/technologychannel">YouTube</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
